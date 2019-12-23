@@ -27,7 +27,7 @@ alias P="popd"
 alias d='dirs -v | head -10'
 
 alias dotfiles.sh="dotfiles.sh --dotfiles-dir ~/.dotfiles"
-alias gpg="gpg2 --keyid-format long"
+alias gpg="gpg --keyid-format long"
 alias histgrep="history 0 | grep"
 alias print-color-table='for i in {0..255} ; do printf "\x1b[38;5;${i}mcolor${i}\n" ; done | column'
 alias psgrep="ps aux | grep"
